@@ -1,5 +1,4 @@
 #include <iostream>
-
 int main( int argc, char ** argv ){
 	int choice;
 	float num;
@@ -8,12 +7,11 @@ int main( int argc, char ** argv ){
 	std::cout << "\n[1] - Kelvin\n[2] - Celcius\n[3] - Fahrenheit\n\n[Choice]: ";
 	std::cin >> choice;
 
-
 	system("clear");
 	std::cout << "\n[Number]: ";
 	std::cin >> num;
-
 	system("clear");
+	
 	switch(choice){
 		case 1:
 			std::cout << "K - ºC : " << num-273.15 << '\n';
